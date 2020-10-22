@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-profile {
+  background-color: #fff;
+  width: 386px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 40px;
+  border-radius: 16px;
+}
+
+.user-profile img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.user-profile h1 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #273444;
+  margin-bottom: 4px;
+}
+
+.user-location {
+  font-size: 14px;
+  line-height: 20px;
+  color: #8492a6;
+  margin-bottom: 32px;
+}
+
+.profile-detail {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-detail-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-detail-item dt {
+  color: #8492a6;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+
+.profile-detail-item dd {
+  color: #0066ff;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+}
