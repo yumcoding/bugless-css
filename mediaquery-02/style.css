@@ -63,11 +63,6 @@ a {
   left: 0;
   background-color: #ffc82c;
   width: 100%;
-  height: 80px;
-}
-
-.banner-title {
-  height: 100%;
 }
 
 .banner-title a {
@@ -85,7 +80,7 @@ a {
 @media screen and (min-width: 768px) {
   .banner {
     top: 0;
-    left: 0;
+    bottom: auto;
   }
 
   .banner-title a {
